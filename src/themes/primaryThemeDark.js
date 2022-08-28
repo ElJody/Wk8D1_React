@@ -1,5 +1,5 @@
 
-import {_createTheme_} from '@material/styles';
+import {createTheme} from '@mui/material/styles';
 
 export const themeOptions= {
   palette: {
@@ -25,5 +25,5 @@ export const themeOptions= {
 
 
 
-const theme=_createTheme_(themeOptions);
+const theme=createTheme(themeOptions);
 export default theme;
